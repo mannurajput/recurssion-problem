@@ -1,0 +1,11 @@
+//sum of natural number
+function print(i,n,sum){
+if(i==n){
+sum+=i;
+console.log(sum);
+return;
+}
+sum+=i;
+print(i+1,n,sum)
+}
+print(1,10,0)
