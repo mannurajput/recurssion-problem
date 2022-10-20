@@ -1,0 +1,16 @@
+//fibonacci seriese till nth
+function fibb(a,b,n){
+if(n==0){
+return;
+}
+var c=a+b;
+console.log(c);
+fibb(b,c,n-1)
+}
+function main(n){
+var a=0;
+var b=1
+console.log(a);
+console.log(b);
+fibb(0,1,n-2)
+}main(7)
