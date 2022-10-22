@@ -1,0 +1,11 @@
+//reverse string
+function str(i,n){
+if(i==0){
+console.log(n.charAt(i))
+return;
+}
+console.log(n.charAt(i))
+str(i-1,n)
+}
+let n="abcd"
+str(n.length-1,n)
