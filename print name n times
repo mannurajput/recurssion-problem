@@ -1,0 +1,7 @@
+//print name n times
+function name(i,n){
+if(i==n)
+return;
+console.log("mannu")
+ name(i+1,n)
+}name(1,7)
